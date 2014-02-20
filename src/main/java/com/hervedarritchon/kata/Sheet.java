@@ -8,7 +8,13 @@ package com.hervedarritchon.kata;
  * To change this template use File | Settings | File Templates.
  */
 public class Sheet {
+    private String cellContent = "";
+
     public String get(String cellId) {
-        return "";  //To change body of created methods use File | Settings | File Templates.
+        return this.cellContent;
+    }
+
+    public void put(String cellId, String cellContent) {
+        this.cellContent = cellContent;
     }
 }
